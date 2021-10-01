@@ -66,7 +66,7 @@ polygonLayer.addRenderable(polygon);
 var modelLayer = new WorldWind.RenderableLayer();
 wwd.addLayer(modelLayer);
 
-var position = new WorldWind.Position(-603.0211672044022, 4439.240007171207, -5096.132145004321);
+var position = new WorldWind.Position(10.0, -125.0, 800000.0);
 var config = {dirPath: 'https://raw.githubusercontent.com/omar17md/SpaceApps2021/main/img/models/'};
 
 /*for (var i = 0; i < 10; i++) {
