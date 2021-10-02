@@ -54,7 +54,7 @@ polygonAttributes.drawOutline = true;
 polygonAttributes.applyLighting = true;
 
 var boundaries = [];
-boundaries.push(new WorldWind.Position(20.0, -75.0, 700000.0));
+boundaries.push(new WorldWind.Position(24, -108.7, 700000.0));
 boundaries.push(new WorldWind.Position(25.0, -85.0, 700000.0));
 boundaries.push(new WorldWind.Position(20.0, -95.0, 700000.0));
 
