@@ -11,4 +11,4 @@
     * Jesús Omar Magaña Medina
     * Verdugo Domínguez Jesus Abdiel
 
-[Link Aplicacion](https://stellarbytesapp.azurewebsites.net/) 
+[Aplication Link](https://stellarbytesapp.azurewebsites.net/) 
