@@ -25,6 +25,7 @@ Tools used in this project:
     * Azure App Service: Used to upload the final project online.
 
 *We use the power of Azure app service to run our application in the Azure cloud*
+
 <img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/appservice.png">
 
 ## App link
