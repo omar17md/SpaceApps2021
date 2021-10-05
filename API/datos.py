@@ -19,7 +19,7 @@ def positions(line1, line2, name, norad):
 #################################### Aqui van tus datos de acceso a Space-track.com
 payload = {
     'identity': 'correo registrado en Space-track.com',
-    'password': 'password asociado a la ciuenta'
+    'password': 'password asociado a la cuenta'
 }
 
 # Solicitud de POST y GET
