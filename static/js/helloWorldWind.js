@@ -22,7 +22,7 @@ placemarkAttributes.labelAttributes.offset = new WorldWind.Offset(
     WorldWind.OFFSET_FRACTION, 0.5,
     WorldWind.OFFSET_FRACTION, 1.0);
 
-placemarkAttributes.imageSource = WorldWind.configuration.baseUrl + "images/pushpins/plain-red.png";
+
 
 
 // Add a COLLADA model
@@ -32,7 +32,6 @@ wwd.addLayer(modelLayer);
 function load() {
     var mydata = JSON.parse(data);
     var length = Object.keys(mydata).length; 
-    //var position = new WorldWind.Position(10.0, -125.0, 800000.0);
     var config = {dirPath: 'https://raw.githubusercontent.com/omar17md/SpaceApps2021/main/img/models/'};
 
     for(var i = 0; i < length; i++){
@@ -42,6 +41,7 @@ function load() {
         colladaModel.scale = 200000;
         modelLayer.addRenderable(colladaModel);
         })
+        
     }
 }
 
