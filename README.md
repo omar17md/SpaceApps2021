@@ -48,8 +48,6 @@ See the following example:
 ## Searching a particulary object
 We can also search a particular object, for the NORAD ID or name, but if you use one or another you would get different results. For example, if you use the name to search them the API returns all objects related with this name. This happens because much debris could be produced for a collision between debris or came from the same satellite.
 
-<img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/Noradid.png">
-
 If you want to use the NORAD ID searching function use this link:
 https://apistellarbyteschallenge.azurewebsites.net/id/xxxxx ➡️ It returns the objects related with the number xxxxx in JSON format.
 
@@ -57,11 +55,14 @@ https://apistellarbyteschallenge.azurewebsites.net/id/name ➡️  It returns th
 
 
 ## Examples
+
 https://apistellarbyteschallenge.azurewebsites.net/id/49251 ➡️ It returns data of NORAD ID 49251
 
 https://apistellarbyteschallenge.azurewebsites.net/id/SZ-12%20MODULE%20DEB ➡️ It returns data of an object related with the name SZ-12-MODULE DEB
 
+See the following example:
 
+<img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/Noradid.png">
 
 ## Easter eggs
 Legend has it that a young Isaac Newton was sitting under an apple tree when he was bonked on the head by a falling piece of fruit, three centuries later the same fruit bonked the planet with the help of Stellar-Bytes
