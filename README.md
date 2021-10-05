@@ -1,5 +1,5 @@
 # SpaceApps2021 -  Stellar - Bytes 🛰 
-<img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/logos/Logo_StellerBytes.png?raw=true">
+<img src="https://github.com/omar17md/SpaceApps2021/blob/3d0b8dff8ecc7519e090fd67fc44444826ab82d9/img/logos/Logo_bebe.png">
 
 # Tracking space debris in real time
 
