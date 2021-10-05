@@ -11,4 +11,4 @@
     * Jesús Omar Magaña Medina
     * Verdugo Domínguez Jesus Abdiel
 
-[Application Link](https://stellarbytesapp.azurewebsites.net/) 
+[Application Link](https://appchallengestellar.azurewebsites.net/) 
