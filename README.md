@@ -21,7 +21,7 @@
 
 
 
-## Documentacion de la API
+## API documentation
 
 ### Description
 Our API takes data from the page Space-Track, it contains general information about space debris, but these data are not useful to plot their position in WorldWind Web page because we need geographic coordinates to plot them. The API’s endpoint returns these geographic coordinates with the name and the NORAD ID base on the data from Space-Track. Data are returned in JSON format.
