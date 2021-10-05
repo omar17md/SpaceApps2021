@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Aplicacion Web de seguimiento de basura espacial en tiempo real.">
+    <meta name="robots" content="index-follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" ../static/css/Style.css">
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/omar17md/SpaceApps2021/main/img/logos/favicon.ico">
+    <link href="/SpaceApps2021/Ejemplo/uicons-regular-rounded/uicons-regular-rounded/css/" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link href=""
+    rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+        </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+        </style>    
+    <title>Stellar Bytes </title>
+
+    <style>
+        .label{
+            color: white;
+            font-family: 'Mulish', sans-serif;
+            font-weight: bold;
+            padding-left: 40%;
+        }
+
+        .tabla{
+            background:rgba(241, 207, 16, 0.808);
+            font-size: 25px;
+            /*font-family: 'Montserrat', sans-serif;
+            font-weight: bold;*/
+            font-family: 'Courier Prime', monospace;
+            font-weight:lighter;
+            margin-top: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            align-items: center;
+            border-radius: 20px;
+            /*box-shadow:0 1px 2px rgba(240, 232, 232, 0.63);*/
+            width: 230px;
+            height: 34px;
+        }
+
+        .iconInfo{
+        position:fixed;
+        background-color:transparent;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 1.5em;
+        z-index: 4;
+        margin-top: 285px;
+        margin-left: 40px;
+    }
+    </style>
+    
+</head>
+    <body class="body" onload="load2()">
+        <header class="header">
+            
+        <div class="Debris">
+            <span class="material-icons">visibility</span>   
+        </div>
+
+        <div class="iconDebrisOFF">
+        <!--    <span class="material-icons">visibility_off</span>   -->
+        </div>
+
+        <div class="iconSearch">
+        <span class="material-icons">manage_search</span>
+    
+        </div>
+
+        <div class="iconInfo">
+            <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+            <i class="fab fa-github"></i>  
+        </div>
+            <div class="table">
+                <label class="label" id="labelnames">Names</label>
+                <input type="name" id="Names" class="tabla"><br>
+                <label class="label" id="labelid">Ids</label>
+                <input type="name" id="Ids" class="tabla"><br>
+                <label class="label" id="labellatitue">Latitudes</label>
+                <input type="name" id="Latitudes" class="tabla" maxlength="5"><br>
+                <label class="label" id="labellongitude">Longitudes</label>
+                <input type="name" id="Longitudes" class="tabla"><br>
+                <label class="label" id="labelelevation">Elevations</label>
+                <input type="name" id="Elevations" class="tabla"><br>
+            </div>
+            <div class="name" width="80px">
+                <a href="https://appchallengestellar.azurewebsites.net"><img src="https://raw.githubusercontent.com/omar17md/SpaceApps2021/main/img/logos/Logo_StellerBytes.png" height="80px"></a> 
+            </div>
+            <nav class="navigation">
+                    <ul>
+                       <!--<form action=" http://127.0.0.1:4000/buscar" method="GET"> -->
+                        <form action="https://appchallengestellar.azurewebsites.net/buscar" method="GET">
+                            <input type="text" name="id" class="input" placeholder="Satelite" required></input>
+                            <button class="boton" type="submit">Search</button>
+                        </form>
+                        <a href="https://github.com/omar17md/SpaceApps2021"><li class="#"><button class="boton3" >Info</button></li></a>
+                    </ul>
+                </nav>
+        </header>
+
+
+        <main class="#">
+            <div class="div-canvas">
+                <canvas id="canvasOne3" class="stars" >
+                    Your browser does not support HTML5 Canvas.
+                </canvas>
+                <script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js"
+                type="text/javascript"></script>
+                <script type="text/javascript" src="../static/js/helloWorldWind2.js" >
+                </script>
+
+                <script type="text/javascript" src="../static/js/dataf.json"></script>
+            </div>
+        </main>
+        <footer class="footer">
+            
+            <div>
+              
+            </div>
+
+            <script>
+                var slider = document.getElementById("slider")
+                var selector = document.getElementById("selector")
+
+                slider.oninput = function(){
+                    selector.style.left = this.value + "%";
+                }
+
+            </script>
+
+
+        </footer>
+    </body>
+</html> 
+
+
+
