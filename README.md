@@ -24,12 +24,15 @@ Tools used in this project:
     * CSS: Used for styling.
     * Azure App Service: Used to upload the final project online.
 
+*We use the power of Azure app service to run our application in the Azure cloud*
+<img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/appservice.png">
+
 ## App link
 
 [Application Link](https://stellarbytesapp.azurewebsites.net/) 
 
 ## Photos of App Stellar - Bytes
-<img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/appservice.png">
+
 <img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/azureportal.png">
 <img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/app.png">
 
