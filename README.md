@@ -22,7 +22,7 @@ Tools used in this project:
     * Javascript: Used for the WorldWind interface and the interactive functions.
     * HTML: Used for the internal structure for the web page.
     * CSS: Used for styling.
-    * Azure: Used to upload the final project online.
+    * Azure App Service: Used to upload the final project online.
 
 ## App link
 
