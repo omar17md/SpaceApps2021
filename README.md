@@ -27,10 +27,12 @@ Esto se debe a que un Debris se puede dividir en varios pedazos debido a choques
 
 Para realizar la consulta simpletemente usa este link:
 https://nasaapistellarbytes.azurewebsites.net/id/xxxxx ➡️ Retornara el objeto relacionado al numero xxxxxx en formato JSON
+
 https://nasaapistellarbytes.azurewebsites.net/id/nombre ➡️ Retornara los objetos relacionados al nombre en formato JSON
 
 
 ## Ejemplos
 https://nasaapistellarbytes.azurewebsites.net/id/49251 ➡️ Retorna los datos del objeto con el NORAD ID 49251
+
 https://nasaapistellarbytes.azurewebsites.net/id/SZ-12%20MODULE%20DEB ➡️ Retorna los datos del objeto con el nombre SZ-12 MODULE DEB
  
