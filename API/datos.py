@@ -16,10 +16,10 @@ def positions(line1, line2, name, norad):
   return name, latitude, longitude, elevation, norad
 
 
-# Aqui van tus datos de acceso a Space-track.com
+#################################### Aqui van tus datos de acceso a Space-track.com
 payload = {
-    'identity': 'abdiel-verdugo@hotmail.com',
-    'password': 'Space1234567890'
+    'identity': 'correo registrado en Space-track.com',
+    'password': 'password asociado a la ciuenta'
 }
 
 # Solicitud de POST y GET
