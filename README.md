@@ -11,11 +11,11 @@
     * Jesús Omar Magaña Medina
     * Verdugo Domínguez Jesus Abdiel
 
-## Link de la APP
+## App link
 
 [Application Link](https://stellarbytesapp.azurewebsites.net/) 
 
-## Fotos de App Stellar - Bytes
+## Photos of App Stellar - Bytes
 <img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/azureportal.png">
 <img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/app.png">
 
