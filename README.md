@@ -41,7 +41,7 @@ Our API takes data from the page Space-Track, it contains general information ab
 
 Endpoint =  https://apistellarbyteschallenge.azurewebsites.net It returns all data in JSON format.
 
-See the following example
+See the following example:
 
 <img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/json.png">
 
