@@ -57,4 +57,10 @@ https://apistellarbyteschallenge.azurewebsites.net/id/name ➡️  It returns th
 https://apistellarbyteschallenge.azurewebsites.net/id/49251 ➡️ It returns data of NORAD ID 49251
 
 https://apistellarbyteschallenge.azurewebsites.net/id/SZ-12%20MODULE%20DEB ➡️ It returns data of an object related with the name SZ-12-MODULE DEB
+
+
+
+## Easter eggs
+Legend has it that a young Isaac Newton was sitting under an apple tree when he was bonked on the head by a falling piece of fruit, three centuries later the same fruit bonked the planet with the help of Stellar-Bytes
+<img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/index.jpg">
  
