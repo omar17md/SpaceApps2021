@@ -42,7 +42,7 @@ Our API takes data from the page Space-Track, it contains general information ab
 Endpoint =  https://apistellarbyteschallenge.azurewebsites.net It returns all data in JSON format.
 
 See the following example
-<img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/jsondata.png">
+<img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/json.png">
 
 ## Searching a particulary object
 We can also search a particular object, for the NORAD ID or name, but if you use one or another you would get different results. For example, if you use the name to search them the API returns all objects related with this name. This happens because much debris could be produced for a collision between debris or came from the same satellite.
