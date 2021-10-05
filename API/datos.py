@@ -26,7 +26,7 @@ payload = {
 with requests.Session() as s:
     p = s.post('https://www.space-track.org/ajaxauth/login', data=payload)
 
-    r = s.get('https://www.space-track.org/basicspacedata/query/class/gp/OBJECT_TYPE/DEBRIS/orderby/OBJECT_TYPE asc/limit/30/emptyresult/show')
+    r = s.get('https://www.space-track.org/basicspacedata/query/class/gp/OBJECT_TYPE/DEBRIS/orderby/OBJECT_TYPE asc/limit/3500/emptyresult/show')
     json_data = r.json()
     data_normalized = pd.json_normalize(json_data)
     print(json_data)
