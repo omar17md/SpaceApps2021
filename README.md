@@ -13,7 +13,7 @@
     
     
 ## Detailed Project Description
-Stellar-Bytes is a user-friendly visualization tool that uses data from space-track.org to track debris in real time. The globe is rendered from NASA WorldWide Web in order to make visualizations interactive. We hope that with this tool people interested might find a way to explore debris around Earth, as well to provide a fast way to access the information about satellites in a different manner, since our app displays latitud, altitude and elevation of the debris. The search bar allows searches by NORAD ID and Name and displays a table with the information.
+Stellar-Bytes is a user-friendly visualization tool that uses data from space-track.org to track debris in real time. The globe is rendered from NASA WorldWide Web in order to make visualizations interactive. We hope that with this tool people interested might find a way to explore debris around Earth, as well to provide a fast way to access the information about satellites in a different manner, since our app displays latitud, altitude and elevation of the debris. The search bar allows searches by *NORAD ID* and *Name* and displays a table with the information.
 
 Tools used in this project:
 
