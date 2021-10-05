@@ -5,29 +5,83 @@
     <meta name="description" content="Aplicacion Web de seguimiento de basura espacial en tiempo real.">
     <meta name="robots" content="index-follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/Style.css">
+    <link rel="stylesheet" href=" ../static/css/Style.css">
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/omar17md/SpaceApps2021/main/img/logos/favicon.ico">
+    <link href="/SpaceApps2021/Ejemplo/uicons-regular-rounded/uicons-regular-rounded/css/" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link href=""
+    rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
         </style>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
         </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+        </style>    
     <title>Stellar Bytes </title>
+    <style>
+    .iconInfo{
+        position:fixed;
+        background-color:transparent;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 1.5em;
+        z-index: 4;
+        margin-top: 340px;
+        margin-left: 40px;
+    }
+</style>
+
+
+
 </head>
     <body class="body" onload="load()">
         <header class="header">
-            <div class="name">
-                <a href="#" class="logo">Stellar Bytes</a>
+            
+        <div class="iconDebris">
+            <span class="material-icons">visibility</span>   
+        </div>
+
+        <div class="iconPosition" style="color: transparent;">
+            <span id="span3" class="material-icons">gps_fixed</span>
+        </div>
+
+        <div class="iconDebrisOFF">
+        <!--    <span class="material-icons">visibility_off</span>   -->
+        </div>
+
+        <div class="iconSearch">
+        <span class="material-icons">manage_search</span>
+        </div>
+
+        <div class="iconSatelite">
+        <span class="material-icons">search</span>  
+        </div>
+
+        <div class="iconInfo">
+            <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+            <i class="fab fa-github"></i>  
+        </div>
+            <div class="name" width="80px">
+               <a href="https://appchallengestellar.azurewebsites.net"><img src="https://raw.githubusercontent.com/omar17md/SpaceApps2021/main/img/logos/Logo_StellerBytes.png" height="80px"></a> 
             </div>
             <nav class="navigation">
-                <ul>
-                    <li class="#"><button class="boton">DEBRIS</button></li>
-                    <li class="#"><button class="boton">Search</button></li>
-                    <input class="input" value="        Name" placeholder="        Satelite"><a></a></input>
-                    <li class="#"><button class="boton">Position</button></li>
-                    <li class="#"><button class="boton">Info</button></li>
-                </ul>
-            </nav>
+                    <ul>
+                        <!--<form action="http://127.0.0.1:4000/buscar" method="GET"> -->
+                        <form action="https://appchallengestellar.azurewebsites.net/ocultar">
+                            <button class="boton"><i class="fi-rr-world"></i>DEBRIS</button>
+                        </form>
+                        <form action="https://appchallengestellar.azurewebsites.net/buscar" method="GET">
+                            <input type="text" name="id" class="input" placeholder="ID or Name" required>
+                            <button class="boton" type="submit">Search</button>
+                        </form>
+                        <a href="https://github.com/omar17md/SpaceApps2021"><li class="#"><button class="boton3" >Info</button></li></a>
+                    </ul>
+                </nav>
         </header>
 
 
@@ -44,14 +98,39 @@
                 <script type="text/javascript" src="../static/js/data.json"></script>
             </div>
         </main>
-        <footer class="footer">
-            <article>
-                Estamos en el espacio.<br>
-                <input type="range" min="0" max="1000" value="500"
-                id="slider"><br>
-                linea tres.
-            </article>
+        <footer class="footer" name="arriba">
+            
 
+            <script>
+                var slider = document.getElementById("slider")
+                var selector = document.getElementById("selector")
+
+                slider.oninput = function(){
+                    selector.style.left = this.value + "%";
+                }
+
+                function im(pr){
+
+                    document.fechat.fechatiempo.value = 20
+                }
+
+            </script>
+
+            <script>
+                var mydate=new Date();
+                var year=mydate.getYear();
+                if (year < 1000)
+                year+=1900;
+                
+                var day=mydate.getDay();
+                var month=mydate.getMonth()+1;
+                if (month<10)
+                month="0"+month;
+                var daym=mydate.getDate();
+                if (daym<10)
+                daym="0"+daym;
+                document.fechat.fechatiempo.value = mydate 
+            </script>
 
         </footer>
     </body>
