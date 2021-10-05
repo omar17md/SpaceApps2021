@@ -10,7 +10,7 @@ def Home():
 
 @app.route('/id/<string:id>')
 def getProduct(id):
-    name_found = [object_name for object_name in datos_posicion if object_name['norad'] == id.upper()]
+    name_found = [object_name for object_name in datos_posicion if object_name['norad'] == id.upper() or object_name['name'] == id.upper()]
     if (len(name_found) > 0):
         return jsonify(name_found)
     return jsonify({'message': 'Norad id Not found'})
