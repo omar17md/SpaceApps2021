@@ -28,7 +28,7 @@ Tools used in this project:
 
 <img src="https://github.com/omar17md/SpaceApps2021/blob/main/img/fotoApp/appservice.png">
 
-## App link
+## App link (currently not working)
 
 [Application Link](https://stellarbytesapp.azurewebsites.net/) 
 
@@ -39,7 +39,7 @@ Tools used in this project:
 
 
 
-## API documentation
+## API documentation (currently not working)
 
 ### Description
 Our API takes data from the page Space-Track, it contains general information about space debris, but these data are not useful to plot their position in WorldWind Web page because we need geographic coordinates to plot them. The API’s endpoint returns these geographic coordinates with the name and the NORAD ID base on the data from Space-Track. Data are returned in JSON format.
